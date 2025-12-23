@@ -1,0 +1,83 @@
+1. What is Pseudocode?
+
+Pseudocode is an informal way of writing an algorithm using simple English words mixed with basic programming-like structures.
+It is not a real programming language, so it does not follow strict syntax rules.
+Its main purpose is to describe the logic of a program in a way that is easy to understand by humans.
+
+2. Why and When Do We Use Pseudocode?
+Why we use pseudocode:
+
+To plan the solution before writing actual code
+
+To understand the logic of an algorithm clearly
+
+To make algorithms language-independent
+
+To communicate ideas easily with others (students, teachers, team members)
+
+To reduce errors before coding
+
+When we use pseudocode:
+
+Before starting to code a program
+
+While designing an algorithm
+
+During exams or assignments to explain logic
+
+When learning programming concepts
+
+When discussing solutions without choosing a programming language
+
+3. How to Write Pseudocode to Represent an Algorithm?
+
+There is no fixed standard, but good pseudocode usually follows these rules:
+
+General Guidelines:
+
+Write step-by-step instructions
+
+Use simple and clear language
+
+Capitalize keywords (optional but recommended)
+
+Use indentation for loops and conditions
+
+Avoid programming-specific syntax (like { } or ;)
+
+Common Pseudocode Keywords:
+
+START / END
+
+INPUT / OUTPUT
+
+IF / ELSE
+
+WHILE / FOR
+
+SET or ASSIGN
+
+4. Example: Problem Algorithm Written in Pseudocode
+Problem:
+
+Write an algorithm to find the sum of two numbers.
+
+Algorithm Explanation:
+
+Start
+
+Read two numbers
+
+Add the numbers
+
+Display the result
+
+End
+
+Pseudocode:
+START
+INPUT number1
+INPUT number2
+SET sum = number1 + number2
+OUTPUT sum
+END
