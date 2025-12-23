@@ -81,3 +81,20 @@ INPUT number2
 SET sum = number1 + number2
 OUTPUT sum
 END
+
+
+
+Task 1: Calculate Average
+Algorithm Average (a,b)/2
+input a,b
+Average a+b/2
+retutn Average
+End Algotithm
+
+
+
+
+
+
+
+
