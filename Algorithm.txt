@@ -157,5 +157,25 @@ END FOR
 OUTPUT uniqueList
 END
 
+Task 6: Find All Prime Numbers Up to N
+
+START
+INPUT N
+
+FOR number = 2 TO N DO
+    SET isPrime = true
+
+    FOR i = 2 TO number - 1 DO
+        IF number MOD i = 0 THEN
+            SET isPrime = false
+        END IF
+    END FOR
+
+    IF isPrime = true THEN
+        OUTPUT number
+    END IF
+END FOR
+
+END
 
 
