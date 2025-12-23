@@ -104,6 +104,21 @@ End if rule
 
 
 
+Task 3: Find the Smallest Number in a List
+START
+INPUT n
+INPUT list[1..n]
+
+SET smallest = list[1]
+
+FOR i = 2 TO n DO
+    IF list[i] < smallest THEN
+        SET smallest = list[i]
+    END IF
+END FOR
+
+OUTPUT smallest
+END
 
 
 
