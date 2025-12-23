@@ -120,6 +120,28 @@ END FOR
 OUTPUT smallest
 END
 
+Task 4: Count Positive and Negative Numbers
+
+START
+INPUT n
+INPUT list[1..n]
+
+SET positive Count = 0
+SET negativeCount = 0
+
+FOR i = 1 TO n DO
+    IF list[i] > 0 THEN
+        positiveCount = positiveCount + 1
+    ELSE IF list[i] < 0 THEN
+        negativeCount = negativeCount + 1
+    END IF
+END FOR
+
+OUTPUT positiveCount
+OUTPUT negativeCount
+END
+
+
 
 
 
