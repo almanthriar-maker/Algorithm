@@ -141,8 +141,21 @@ OUTPUT positiveCount
 OUTPUT negativeCount
 END
 
+Task 5: Remove Duplicates from a List
 
+START
+INPUT list
 
+SET uniqueList = empty
+
+FOR each number in list DO
+    IF number NOT IN uniqueList THEN
+        ADD number TO uniqueList
+    END IF
+END FOR
+
+OUTPUT uniqueList
+END
 
 
 
