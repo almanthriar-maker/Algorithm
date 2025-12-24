@@ -212,3 +212,29 @@ OUTPUT mergedList
 END
 
 
+Task 8: Find the Second Largest Number
+
+START
+INPUT list
+
+IF list[1] > list[2] THEN
+    SET largest = list[1]
+    SET secondLargest = list[2]
+ELSE
+    SET largest = list[2]
+    SET secondLargest = list[1]
+END IF
+
+FOR i = 3 TO length(list) DO
+    IF list[i] > largest THEN
+        SET secondLargest = largest
+        SET largest = list[i]
+    ELSE IF list[i] < largest AND list[i] > secondLargest THEN
+        SET secondLargest = list[i]
+    END IF
+END FOR
+
+OUTPUT secondLargest
+END
+
+
