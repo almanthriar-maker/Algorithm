@@ -238,3 +238,35 @@ OUTPUT secondLargest
 END
 
 
+Task 9: Check if a String is a Palindrome
+
+START
+INPUT text
+
+SET text = toLowerCase(text)
+REMOVE spaces from text
+
+SET left = 1
+SET right = length(text)
+
+SET isPalindrome = true
+
+WHILE left < right DO
+    IF text[left] != text[right] THEN
+        SET isPalindrome = false
+    END IF
+    left = left + 1
+    right = right - 1
+END WHILE
+
+IF isPalindrome = true THEN
+    OUTPUT "Palindrome"
+ELSE
+    OUTPUT "Not a Palindrome"
+END IF
+
+END
+
+
+
+
