@@ -178,4 +178,37 @@ END FOR
 
 END
 
+Task 7: Merge Two Sorted Lists
+
+START
+INPUT list1
+INPUT list2
+
+SET i = 1
+SET j = 1
+SET mergedList = empty
+
+WHILE i <= length(list1) AND j <= length(list2) DO
+    IF list1[i] < list2[j] THEN
+        ADD list1[i] TO mergedList
+        i = i + 1
+    ELSE
+        ADD list2[j] TO mergedList
+        j = j + 1
+    END IF
+END WHILE
+
+WHILE i <= length(list1) DO
+    ADD list1[i] TO mergedList
+    i = i + 1
+END WHILE
+
+WHILE j <= length(list2) DO
+    ADD list2[j] TO mergedList
+    j = j + 1
+END WHILE
+
+OUTPUT mergedList
+END
+
 
