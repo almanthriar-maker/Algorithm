@@ -267,6 +267,30 @@ END IF
 
 END
 
+Task 10: Generate Fibonacci Sequence
+
+START
+INPUT N
+
+IF N >= 1 THEN
+    OUTPUT 0
+END IF
+
+IF N >= 2 THEN
+    OUTPUT 1
+END IF
+
+SET first = 0
+SET second = 1
+
+FOR i = 3 TO N DO
+    SET next = first + second
+    OUTPUT next
+    SET first = second
+    SET second = next
+END FOR
+
+END
 
 
 
